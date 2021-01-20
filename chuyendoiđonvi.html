@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>
+        Chuyển đổi giữa feet và meter
+    </title>
+</head>
+
+<body>
+    <script>
+        feet = Number(prompt("Nhập số feet cần chuyển đổi : "))
+
+        function foottoMeter(feet) {
+            meter = 0.305 * feet
+            return meter
+        }
+        document.write(foottoMeter(feet))
+        document.write("<br/>")
+        meters = Number(prompt("Nhập số meter cần chuyển đổi : "))
+
+        function metertoFoot(meters) {
+            foot = 3.279 * meters
+            return foot
+        }
+        document.write(metertoFoot(meters))
+    </script>
+</body>
+
+</html>
